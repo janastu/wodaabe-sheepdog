@@ -1,0 +1,30 @@
+changed system name to wodaabe_bcp
+changed password to wodaabe
+changed timezone to africa - niamey
+changed keyboard layout to English US
+
+enabled ssh and vnc
+
+reboot
+
+sudo apt-get remove wolfram-engine
+sudo apt-get remove bluej
+sudo apt-get remove geany
+sudo apt-get remove minecraft-pi
+sudo apt-get remove nodered
+sudo apt-get remove greenfoot
+sudo apt-get remove claws-mail
+sudo apt-get remove sonic-pi
+sudo apt autoremove
+
+reboot
+
+sudo apt-get install ntfs-3g
+sudo apt-get install git
+
+git config user.email "wodaabe_pi1@niger"
+git config user.name "wodaabe_pi1"
+
+added following lines to /home/pi/.config/lxsession/LXDE-pi/autostart
+ @/home/pi/Documents/pyGSM/main.sh
+ @/home/pi/Documents/pyGSM/pendrive_sync.sh

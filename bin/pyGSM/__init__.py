@@ -47,7 +47,7 @@ class gsm(object):
 
 		### if debug mode, open terminal and display commands sent
 		if args == 'debug':
-			self.serpid = subprocess.Popen(['lxterminal', '-e', 'python', projectpath+'/serial_port.py'])
+			self.serpid = subprocess.Popen(['xterm', '-e', 'python', projectpath+'/serial_port.py'])
 		else:
 			self.serpid = subprocess.Popen(['python', projectpath+'/serial_port.py'])
 		
