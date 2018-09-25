@@ -1,2 +1,3 @@
 *.pyc
 bcp_output/
+*.pdf
