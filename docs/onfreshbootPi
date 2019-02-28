@@ -19,8 +19,11 @@ sudo apt autoremove
 
 reboot
 
+sudo apt-get install xterm
 sudo apt-get install ntfs-3g
 sudo apt-get install git
+sudo apt-get install vlc
+sudo apt-get install pulseaudio
 
 git config user.email "wodaabe_pi1@niger"
 git config user.name "wodaabe_pi1"

@@ -22,7 +22,7 @@ do
 
 	### Sync the desired folder
 	sleep 5
-	rsync -r $dir/bcp_output/ $x/bcp_output
+	rsync -r $dir/data/ $x/bcp_output
 	
 	y=$(date +%d%b%Y,%X:)
 	echo $y 'Sync Completed'

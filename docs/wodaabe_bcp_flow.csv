@@ -1,0 +1,16 @@
+"form_id","999","998","0","3","4","5","6","7","8","9","10","11","12","13","14","15","16","45","46","47","48","52","53","83","84","85","86","87","108","113","114"
+"audio_file_name","-","PROBLEM","03-00-callback-reminder","03-01-welcome","03-02-training-intro","03-03-training-1","03-04-training-3","03-05-training-0","03-06-training-end","04-00-introduction","04-01-repeat04","05-00-confirmation-participation","05-01-thanks-callback-info","06-00-caller-profile","06-01-adult-child","06-02-female-male","06-03-00-deghereji-alijam","06-04-clan-thanks","07-00-consultation-opening","08-01-number008","08-02-number009","08-05-01-encouragement","08-06-number0x","09-00-break-offer","09-01-break-confirm","10-00-number055","10-01-number056","10-02-number058","10-23-final5encouragement","10-28-number0x","11-00-closing"
+"valid_input",,,,,,"1","3","0","0",,"0","1",,,"1;3;0","1;3;0","1;3;0","1;0",,"1;3;0","1;3;0",,"1;3;0","1;3;0","0","1;3;0","1;3;0","1;3;0",,"1;3;0","0"
+"goto_next",,"999","A","4","5","6","7","8","8","10","9","12","13","14","15;15;13","16;16;14","45;45;15","46;16","47","48;48;46","52;52;47","53","83;83;51","85;84;53","83","86;86;85","87;87;85","108;108;86","113","114;114;87","113"
+"timeout",,,,,,"3","3","3","3",,"3","3",,,"3","3","3","3",,"3","3",,"3","3","3","3","3","3",,"3","3"
+"noinput_prompt",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"noinput_goto",,,,,,"5","6","7","9",,"11","11",,,"14","15","16","45",,"47","48",,"53","83","999","85","86","87",,"113","999"
+"noinput_limit","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1"
+"nomatch_prompt",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"nomatch_goto",,,,,,"5","6","7","8",,"10","11",,,"14","15","16","45",,"47","48",,"53","83","84","85","86","87",,"113","114"
+"nomatch_limit","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1"
+"name","Disconnect","Closing message",,,,"Training 1","Training 3","Training 0","Training end","Level 4","Level 4a","Level 5","Level 5a","Level 6","Level 6.1","Level 6.2","Level 6.3","Level 6.4","Level 7","Level 8","Level 8.1",,,"Level 9","Level 9.1","Level 10","Level 10.1","Level 10.2",,,"Level 11"
+"comments","Send Hangup",,"A = 3 for new user
+A = Last saved level for caller","First time welcome","Training info",,,,"0 - repeat
+Timeout – go to level 4","introduction","repeat intro","confirmation of participation","Thanking for choosing to participate","caller profile","adult or child","male or female","Deghereji or
+Alijam","E = lastclan selected",,,,,,,"intentional break offered",,,,,,"survey end"
